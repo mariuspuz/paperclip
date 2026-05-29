@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "productboard": {
+      "command": "${CLAUDE_PROJECT_DIR}/.claude/productboard-mcp-server.sh",
+      "args": [],
+      "env": {
+        "PRODUCTBOARD_API_TOKEN": "${PRODUCTBOARD_API_TOKEN}",
+        "LOG_LEVEL": "error"
+      }
+    }
+  }
+}
